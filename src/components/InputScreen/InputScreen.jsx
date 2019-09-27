@@ -1,9 +1,9 @@
 import React from 'react';
 
-const InputScreen = () => {
+const InputScreen = ({input}) => {
     return (
         <div>
-            <input type="text" className='w-100' value='0' style={{textAlign: 'right'}} />
+            <h1 className='w-100 bg-light-red ba b--purple mg br2' style={{textAlign: 'right', margin: '0'}}>{input}</h1>
         </div>
     );
 }
